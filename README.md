@@ -30,7 +30,7 @@ The repository includes everything required to compile the app. You can get
 setup by:
 
 ```shellsession
-$ git clone https://github.com/phonegap/phonegap-app-developer.git
+$ git clone https://github.com/huukhai87/phonegap-app-developer.git
 $ cd phonegap-app-developer/
 $ npm install
 ```
@@ -169,21 +169,13 @@ $ git clone https://github.com/phonegap/phonegap-app-developer-keys.git
 
 $ cd path/to/phonegap-app-developer/
 $ ln -s /path/to/phonegap-app-developer-keys/keys/ios resources/signing/ios
-$ ln -s /path/to/phonegap-app-developer-keys/keys/android resources/signing/android
-```
+$ ln -s /path/to/phonegap-app-devel
 
-### Contributing, Commits, and Tags
 
-See the [CONTRIBUTING.md][6] file for details.
+### Compatibility
 
-[1]: https://play.google.com/store/apps/details?id=com.adobe.phonegap.app
-[3]: http://docs.phonegap.com/references/developer-app/
-[4]: http://github.com/phonegap/connect-phonegap
-[5]: http://github.com/phonegap/phonegap-cli
-[6]: https://github.com/phonegap/phonegap-app-developer/blob/master/CONTRIBUTING.md
-[7]: http://www.windowsphone.com/en-us/store/app/phonegap-developer/5c6a2d1e-4fad-4bf8-aaf7-71380cc84fe3
-[travis-ci-img]: https://travis-ci.org/phonegap/phonegap-app-developer.svg?branch=master
-[travis-ci-url]: http://travis-ci.org/phonegap/phonegap-app-developer
-[bithound-img]: https://www.bithound.io/github/phonegap/phonegap-app-developer/badges/score.svg
-[bithound-url]: https://www.bithound.io/github/phonegap/phonegap-app-developer
+![browserstack-logo-600x315](https://user-images.githubusercontent.com/7760/34738829-7327ddc4-f561-11e7-97e2-2fe0474eaf05.png)
+
+These components are expected to work on somewhat modern browsers, but if it breaks on a particular version of a particular browser, please [file an issue](https://github.com/huukhai87/hostedWebAppDemo/issues), we can check the problem using [browserstack](http://browserstack.com/), that is a nice service and supports open source projects like this one :)
+
 
